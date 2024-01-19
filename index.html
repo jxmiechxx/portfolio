@@ -14,7 +14,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="#work">Work</a></li>
             </ul>
         </div>
@@ -35,6 +35,45 @@
             </div>
         </div>
     </nav>
+    <!--Profile Picutre-->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile.JPG" id="profile-picture" alt="Jamie Cha Profile Picture">
+        </div>
+        <!--Introduction-->
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jamie Cha</h1>
+            <p class="section__text__p2">UX Designer</p>
+            <!--Resume Button-->
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/Jamie Cha Resume 2024.pdf')">
+                    My Resume
+                </button>
+            </div>
+            <!--Contact Page Button-->
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='contact.html'">
+                    Contact Me
+                </button>
+            </div>
+            <!--Socials-->
+            <div id="socials-container">
+                <img
+                  src="./assets/linkedin-basic-round-social-logo-png-13.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/jamiecha5/'"
+                />
+                <img
+                  src="./assets/github-white.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/jxmiechxx'"
+                />
+              </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
