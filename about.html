@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaqueries.css">
+<body>
+    <!--Desktop navigation-->
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="/">Jamie Cha</a>
+        </div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--hamburger navigation-->
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <a href="/">Jamie Cha</a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            </div>
+        </div>
+    </nav>
+    <!--About section-->
+    <h1>Hey! It's nice to meet you.</h1>
+    <div style="text-align: center;">
+        <img src="./assets/profile.JPG" id="graduation-picture" alt="Jamie Cha Graduation Picture">
+    </div>
+    <h1>My name is Jamie Cha. Here is some information about me!</h1> 
+    <h2>Meet Jamie</h2> 
+    <p>I grew up in New Jersey my whole life. Currently, I am residing
+        near the Jersey Shore working for the <p2>Department of the Navy</p2> as a <p2>Computer Scientist</p2>. 
+        I was inspired to jump into UX/UI Design when my mentor did a TedTalk about it. The base that I am working at
+        doesn't have much background or information on UX/UI design which made me want to do it even more. I hope to one day
+        make it my full-time job working in New York City. 
+    </p>
+    <div style="text-align: center;">
+        <img src="./assets/gov-picture.jpeg" id="government-picture" alt="Jamie Cha Government Picture" style="width: 300px;">
+    </div>
+    <div id="socials-container">
+        <img
+          src="./assets/government.svg"
+          alt="Department of the Navy"
+          class="company-logo"
+          onclick="location.href='https://www.navy.mil/'"
+          style="width: 150px;"
+        />
+    </div>
+    <br>
+    <p>I graduated from <p3 onclick="window.open('https://www1.villanova.edu/university.html')">Villanova University</p3> 
+        a semester early in Fall of 2022 with a <p2>B.S. in Computer Science</p2> also minoring in Cybersecurity. 
+        My senior year, I interned at a non-profit called 
+        <p2>Asian Student Achievement</p2> as a Technolgoy Intern. 
+    </p>
+    <div id="socials-container">
+        <img
+          src="./assets/asa.webp"
+          alt="Asian Student Achievement"
+          class="company-logo"
+          onclick="location.href='https://learnasa.org/'"
+          style="width: 250px;"
+        />
+    </div>
+    <br>
+    <p>Since 2015, every summer I worked as a Lifeguard at my local community pool. In 2021, I was promoted to 
+        Head Lifeguard and Swim Lesson Coordinator. I gained majority of my leadership skills during those next 3 years. 
+    </p>
+    <div style="text-align: center;">
+        <img src="./assets/pool.jpeg" id="pool-picture" alt="Jamie Cha Pool Picture" style="width: 300px;">
+    </div>
+    <div id="socials-container">
+        <img
+          src="./assets/ridgefield.png"
+          alt="Ridgefield"
+          class="company-logo"
+          onclick="location.href='https://www.ridgefieldnj.gov/'"
+        />
+    </div>
+    <p>Fun Fact! I played the trumpet for 14 years, from the fourth grade all the way through college. In high school I was 
+        Section Leader, Drill Sergent and Drum Major for our marching band. In college, I was in charge of social media and taking pictures. 
+    </p>
+    <div style="text-align: center;">
+        <img src="./assets/marchingband.jpeg" id="marchingband" alt="Jamie Cha Marching Band Picture" style="width: 500px;">
+    </div>
+    <div style="text-align: center;">
+        <img src="./assets/marchingband2.jpeg" id="marchingband2" alt="Jamie Cha Marching Band 2 Picture" style="width: 500px;">
+    </div>
+
+</body>

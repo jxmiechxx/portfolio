@@ -10,18 +10,19 @@
 <body>
     <!--Desktop navigation-->
     <nav id="desktop-nav">
-        <div class="logo">Jamie Cha</div>
-        <div>
+        <div class="logo">
+            <a href="/">Jamie Cha</a>
+        </div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
     <!--hamburger navigation-->
     <nav id="hamburger-nav">
-        <div class="logo">Jamie Cha</div>
+        <div class="logo">
+            <a href="/">Jamie Cha</a>
+        </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -29,51 +30,39 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-                <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
             </div>
         </div>
     </nav>
-    <!--Profile Picutre-->
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile.JPG" id="profile-picture" alt="Jamie Cha Profile Picture">
+    <!--Introduction-->
+    <div class="section__text">
+        <div id="introduction">
+            <h1>Hi. My name is </h1>
+            <h3 onclick="window.open('./assets/Jamie Cha Resume 2024.pdf')">JAMIE CHA</h3>
+            <h1>I am an aspiring UX designer.</h1>
         </div>
-        <!--Introduction-->
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Jamie Cha</h1>
-            <p class="section__text__p2">UX Designer</p>
-            <!--Resume Button-->
-            <div class="btn-container">
-                <button class="btn btn-color-1" onclick="window.open('./assets/Jamie Cha Resume 2024.pdf')">
-                    My Resume
-                </button>
-            </div>
-            <!--Contact Page Button-->
-            <div class="btn-container">
-                <button class="btn btn-color-1" onclick="location.href='contact.html'">
-                    Contact Me
-                </button>
-            </div>
-            <!--Socials-->
-            <div id="socials-container">
-                <img
-                  src="./assets/linkedin-basic-round-social-logo-png-13.png"
-                  alt="My LinkedIn profile"
-                  class="icon"
-                  onclick="location.href='https://www.linkedin.com/in/jamiecha5/'"
-                />
-                <img
-                  src="./assets/github-white.png"
-                  alt="My Github profile"
-                  class="icon"
-                  onclick="location.href='https://github.com/jxmiechxx'"
-                />
-              </div>
-        </div>
-    </section>
+    </div>
+    <!--Socials-->
+    <div id="socials-container">
+        <img
+          src="./assets/linkedin-basic-round-social-logo-png-13.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/jamiecha5/'"
+        />
+        <img
+          src="./assets/github-white.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/jxmiechxx'"
+        />
+        <img
+          src="./assets/instagram.png"
+          alt="My Instagram profile"
+          class="icon"
+          onclick="location.href='https://www.instagram.com/jxmiechx/'"
+        />
+      </div>
     <script src="script.js"></script>
 </body>
 </html>

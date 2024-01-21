@@ -7,14 +7,41 @@
     padding: 0;
 }
 
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 body {
-    background-color: black;
+    background-color: #DDDBF1;
     font-family: 'Lobster', sans-serif;
     font-family: 'Sigmar', sans-serif;;
 }
 
 h1 {
-    color: white;
+    text-align: center;
+    color: #AB9F9D;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: #AB9F9D;
+    padding: 50px;
+    text-decoration:overline;
+}
+
+h3 {
+    text-align: center;
+    color: #AB9F9D;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+
+h3:hover {
+    cursor: pointer;
+    color: #383F51;
 }
 
 html {
@@ -22,7 +49,21 @@ html {
 }
 
 p {
-    color: white;
+    text-align: left;
+    color: #AB9F9D;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+p2 {
+  color: #46403f;
+  text-decoration: underline;
+}
+
+p3 {
+  color: #46403f;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* TRANSITION */
@@ -49,23 +90,23 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
-    color: white;
+    color: #8FC0A9;
 }
 
 a {
-    color: white;
+    color: #3C4F76;
     text-decoration: none;
     text-decoration-color: white;
 } 
 
 a:hover {
-    color: green;
+    color: white;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(red, green, blue);
 }
 
 .logo {
-    color: white;
+    color: #383F51;
     font-size: 2rem;
 }
 
@@ -96,7 +137,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #3C4F76;
     transition: all 0.3 ease-in-out;
 }
 
@@ -115,7 +156,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: white;
+    color: #3C4F76;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
   }
@@ -271,3 +312,9 @@ section {
 #contact-info {
     text-align: center;
 }
+
+/* WORK PAGE */
+.company-logo:hover {
+    cursor: pointer;
+}
+
