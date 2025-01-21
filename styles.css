@@ -1,0 +1,50 @@
+/*Background color for navigation bar*/
+.topnav {
+    background-color: #669BBC;
+    overflow: hidden;
+}
+
+/*Style of the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/*Color of the links inside the navigation bar on hover */
+.topnav a:hover {
+    background-color: #003049;
+    color: white;
+}
+
+/*Color the active/current link selected */
+.topnav a.active {
+    background-color: #003049;
+    color: white;
+}
+
+/*h1 of intro*/
+#intro h1:nth-of-type(1) {
+    text-align: center;
+}
+
+/*p of intro */
+#intro p:nth-of-type(1) {
+    text-align: center;
+}
+
+body {
+    background-color: #FDF0D5;
+}
+
+#university h3:nth-of-type(1) {
+    background-color: white;
+    color: blue;
+}
+
+h2 {
+    color: white;
+    background-color: #669BBC;
+}
