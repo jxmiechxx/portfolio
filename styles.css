@@ -1,7 +1,41 @@
+
 /*Background color for navigation bar*/
 .topnav {
     background-color: #669BBC;
     overflow: hidden;
+    border-radius: 25px;
+}
+
+.home-pic {
+  display: block;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  justify-content: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  background-color: #669BBC;
+  border-radius: 25px;
 }
 
 /*Style of the links inside the navigation bar */
@@ -33,6 +67,11 @@
 /*p of intro */
 #intro p:nth-of-type(1) {
     text-align: center;
+}
+
+#foo img[src="grad-pic.jpeg"] {
+  /* css */
+  align-items: center;
 }
 
 body {
