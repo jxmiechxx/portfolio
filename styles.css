@@ -39,9 +39,8 @@ body {
     background-color: #FDF0D5;
 }
 
-#university h3:nth-of-type(1) {
-    background-color: white;
-    color: blue;
+h1 {
+  text-align: center;
 }
 
 h2 {
@@ -50,13 +49,13 @@ h2 {
 }
 
 div.gallery {
-    border: 1px solid #ccc;
-  }
+  border: 1px solid #ccc;
+}
   
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
   
   div.desc {
     padding: 15px;
