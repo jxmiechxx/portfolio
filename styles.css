@@ -13,6 +13,17 @@
   margin-right: auto;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  font-size: large;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -130,4 +141,24 @@ div.gallery img {
     display: table;
     clear: both;
   }
+
+p {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#case-study-overview h3, p, ul {
+  text-align: left;
+}
+
+#university h3{
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
