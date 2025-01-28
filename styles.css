@@ -26,19 +26,18 @@ ul {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
+  display: flex;
   width: 33.33%;
   padding: 50px;
   justify-content: center;
+  text-align: center;
 }
 
 /* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.row {
+  display: flex;
+  justify-content: center; /*Centers the icons horizontally*/
+  align-items: center; /*centers the icons vertically*/
 }
 
 #contact {
